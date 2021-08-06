@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import getLink from './api/requests';
+import getLink from './api/request';
 
 import Loader from './assets/loader.svg';
 import Copy from './assets/copy.svg';
