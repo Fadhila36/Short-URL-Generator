@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
-import getLink from './api/request';
+import getLink from './api/requests';
 
 import Loader from './assets/loader.svg';
 import Copy from './assets/copy.svg';
 import Tick from './assets/tick.svg';
-
 
 function App() {
   const [input, setInput] = useState('');
